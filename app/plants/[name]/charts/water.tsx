@@ -137,9 +137,7 @@ export const WaterCharts = ({ data }: { data: WaterRecord[] }) => {
         <CardFooter>
           <Alert className="bg-gray-800 border-purple-500">
             <AlertCircle className="h-4 w-4 text-purple-300" />
-            <AlertTitle className="text-purple-300">
-              Humidity Summary
-            </AlertTitle>
+            <AlertTitle className="text-purple-300">Water Summary</AlertTitle>
             <AlertDescription className="flex text-gray-200">
               Total rainfall: {waterMetrics.totalRainfall}mm , covering{" "}
               {waterMetrics.percentCovered}% of the{" "}
